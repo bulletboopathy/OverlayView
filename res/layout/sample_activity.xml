@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.mhz.overlayview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.mhz.overlayview.OverlayView 
+        android:background="#cccccc"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        app:columns="2"
+        app:row="2"
+        app:item_min_width="48dip"
+        app:item_min_height="48dip"
+        app:item_width="48dip"
+        app:item_height="48dip"
+        app:item_layout="@layout/list_item"
+        app:item_overlay_layout="@layout/overlay_layout"
+        app:stack_from_end="false"
+        app:orientation="vertical"
+        app:overlay_item_xml="@xml/sample_overlay"
+        app:overlay_image="@drawable/ic_launcher"
+        app:overlay_text="More"
+        app:overlayWindowBackground="#343434" />
+
+</LinearLayout>

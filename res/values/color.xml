@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<resources>
+    <!-- OverlayView -->
+    <color name="menu_pressed_color">#ff0099cc</color>
+</resources>

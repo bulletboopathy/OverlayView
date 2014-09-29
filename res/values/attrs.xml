@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OverlayView">
+        <attr name="columns" format="integer" />
+        <attr name="row" format="integer" />
+        <attr name="item_min_width" format="dimension|reference" />
+        <attr name="item_min_height" format="dimension|reference" />
+        <attr name="item_width" format="dimension|reference" />
+        <attr name="item_height" format="dimension|reference" />
+        <attr name="item_layout" format="reference" />
+        <attr name="item_overlay_layout" format="reference" />
+        <attr name="stack_from_end" format="boolean|reference" />
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="1" />
+            <enum name="horizontal" value="2" />
+        </attr>
+        <attr name="overlay_item_xml" format="reference" />
+        <attr name="overlay_image" format="reference" />
+        <attr name="overlay_text" format="string|reference" />
+        <attr name="overlayWindowBackground" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="OverlayItem">
+        <attr name="overlay_id" format="integer" />
+        <attr name="overlay_title" format="string" />
+        <attr name="overlay_title_condensed" format="string" />
+        <attr name="overlay_showAsAction" format="enum">
+            <enum name="always" value="1"/>
+            <enum name="withText" value="2"/>
+            <enum name="ifRoom" value="3"/>
+            <enum name="never" value="4"/>
+        </attr>
+        <attr name="overlay_order_in_category" format="integer" />
+        <attr name="overlay_icon" format="reference" />
+        <attr name="overlay_visible" format="boolean" />
+        <attr name="overlay_enabled" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="OverlayGroup">
+        <attr name="overlay_group_id" format="integer" />
+        <attr name="overlay_group_order_in_category" format="integer" />
+        <attr name="overlay_group_visible" format="boolean" />
+        <attr name="overlay_group_enabled" format="boolean" />
+    </declare-styleable>
+
+</resources> <!-- $Id$ -->
